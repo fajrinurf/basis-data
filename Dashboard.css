@@ -1,0 +1,697 @@
+.mediaViewInfo {
+	--web-view-name: Dashboard 1;
+	--web-view-id: Dashboard_1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Dashboard_1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Dashboard_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background: linear-gradient(134.9deg, rgba(0,0,0,1) 0%, rgba(22,22,24,1) 100%);
+	overflow: hidden;
+	--web-view-name: Dashboard 1;
+	--web-view-id: Dashboard_1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#bg {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#main_menu {
+	fill: rgba(255,255,255,0.141);
+}
+.main_menu {
+	overflow: visible;
+	position: absolute;
+	width: 199px;
+	height: 748px;
+	left: 0px;
+	top: 333px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#pembatas {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pembatas {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1080px;
+	left: 198.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Fn_Shop {
+	left: 30px;
+	top: 158px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Hey October;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(230,226,226,1);
+}
+#search {
+	position: absolute;
+	width: 187px;
+	height: 36px;
+	left: 6px;
+	top: 243px;
+	overflow: visible;
+}
+#Search_bar {
+	fill: rgba(255,255,255,0.388);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Search_bar {
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+}
+#Search_be {
+	left: 15px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+#search_logo {
+	fill: rgba(255,255,255,0);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.search_logo {
+	overflow: visible;
+	position: absolute;
+	width: 15.813px;
+	height: 13.89px;
+	left: 157.5px;
+	top: 12.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Logo_Fn_Shop {
+	position: absolute;
+	width: 138px;
+	height: 138px;
+	left: 26px;
+	top: 11px;
+	overflow: visible;
+}
+#Main_Navigation {
+	left: 19px;
+	top: 301px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#bg2 {
+	fill: rgba(255,255,255,0.42);
+}
+.bg2 {
+	position: absolute;
+	overflow: visible;
+	width: 1721px;
+	height: 1020px;
+	left: 199px;
+	top: 61px;
+}
+#Hai_Admin {
+	left: 1799px;
+	top: 21px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Dashboard_2;
+	cursor: pointer;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#pprofil_top {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1741px;
+	top: 6px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Dashboard_2;
+	cursor: pointer;
+}
+#Rectangle_bottom_bm {
+	fill: url(#Rectangle_bottom_bm);
+}
+.Rectangle_bottom_bm {
+	position: absolute;
+	overflow: visible;
+	width: 1722px;
+	height: 42px;
+	left: 198px;
+	top: 1038px;
+}
+#Transaction {
+	left: 59px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Transaction_1;
+	cursor: pointer;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#History {
+	left: 59px;
+	top: 445px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: History_1;
+	cursor: pointer;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Inventory {
+	left: 59px;
+	top: 491px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Inventory_1;
+	cursor: pointer;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Supplier {
+	left: 59px;
+	top: 537px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Supplier_1;
+	cursor: pointer;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#button_select {
+	fill: rgba(20,223,34,1);
+}
+.button_select {
+	position: absolute;
+	overflow: visible;
+	width: 199px;
+	height: 36px;
+	left: 0px;
+	top: 343px;
+}
+#list {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 207px;
+	top: 11px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Dashboard_3;
+	cursor: pointer;
+}
+#Dashboard {
+	left: 59px;
+	top: 353px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#dasboard {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 348px;
+	overflow: visible;
+}
+#transaction {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 394px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Transaction_1;
+	cursor: pointer;
+}
+#history {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 440px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: History_1;
+	cursor: pointer;
+}
+#inventory {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 486px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Inventory_1;
+	cursor: pointer;
+}
+#supplier {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 532px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Supplier_1;
+	cursor: pointer;
+}
+#Line_dasboard {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_dasboard {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 371.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_transaction {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_transaction {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 418.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_history {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_history {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 464.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_inventory {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_inventory {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 510.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_supplier {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_supplier {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 554.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Copyright {
+	left: 219px;
+	top: 1047px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#copyright {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 274px;
+	top: 1052px;
+	overflow: visible;
+}
+#ID2021_-_2022 {
+	left: 289px;
+	top: 1047px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#FnStorageChasier {
+	left: 365px;
+	top: 1047px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(73,197,90,1);
+}
+#_All_rights_reserved {
+	left: 466px;
+	top: 1047px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#Version_0100 {
+	left: 1809px;
+	top: 1047px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#SELAMAT_DATANG {
+	filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.161));
+	left: 636px;
+	top: 292px;
+	position: absolute;
+	overflow: visible;
+	width: 650px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Ailerons;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(255,255,255,1);
+}
+#Keep_Spirit_to_Success {
+	left: 755px;
+	top: 393px;
+	position: absolute;
+	overflow: visible;
+	width: 412px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 3px;
+}
+#ID2300 {
+	filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.161)) blur(50px);
+	left: 676px;
+	top: 474px;
+	position: absolute;
+	overflow: visible;
+	width: 569px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: LCDMono2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 150px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 3px;
+}
+#Thusday_22_Sept_2022 {
+	left: 713px;
+	top: 670px;
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 3px;
+}
+#mainprofile {
+	position: absolute;
+	width: 203px;
+	height: 203px;
+	left: 859px;
+	top: 69px;
+	overflow: visible;
+}
+#logo_user {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	left: 1676px;
+	top: 15px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Tambah_User;
+	cursor: pointer;
+}
+#About {
+	left: 59px;
+	top: 583px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: About_1;
+	cursor: pointer;
+	text-align: left;
+	font-family: Athiti;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+#logo_about {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 19px;
+	top: 578px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: About_1;
+	cursor: pointer;
+}
+#Line_about {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_about {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 1px;
+	left: 59.5px;
+	top: 600.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
